@@ -9,7 +9,7 @@
 .container{
     height: 100vh;
     width: 100%;
-background-image: url(./images/main.jpeg);
+background-image: url(./images/main3webp.webp);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -60,6 +60,7 @@ span{
     align-items: flex-start;
     justify-content: space-between;
     margin-left: 50px;
+   
 }
 .mini-container h3{
     font-size: 16px;
@@ -153,7 +154,7 @@ justify-content: space-between;
 }
 .thired input{
    background: none;
-    border: none;
+    border: none; 
     
 }
 .thired ::placeholder{
@@ -207,12 +208,93 @@ background: none;
     margin-left: 10px;
 }
 
-@media(max-width:786px){
+ @media screen and (max-width:768px){
+    .round{
+        margin-left: 10px;
+    }
+    nav h2{
+        font-size: 18px;
+    }
     .list a{
         margin-left: 0px;
+        font-size: 20px;
     }
-  
+    
     .mini-container{
         width: 100%;
+       margin-left: 30px;
+        
     }
+    .mini-container h3{
+        font-size: 16px;
+    }
+    .mini-container p{
+        font-size: 16px;}
+        .contect{
+        
+            width: 80%;
+        }
+        .first{
+            width: 40%;
+           }
+           .sec{
+            width: 40%;
+           }
+           .thired{
+            width: 70%;
+           }
+           .Fourth{
+            width: 70%;
+           }
+           #change{
+            width: 40%;
+        }
+        #create{
+            width: 40%;
+            margin-left: 20px;
+        }
+
+     
+} 
+
+
+ @media screen and (max-width:468px){
+     .mini-container h1{
+        font-size: 30px;
+    }
+    .mini-container p{
+        font-size: 20px;
+    }
+    .contect{
+      
+        width: 100%;
+    }
+   .first{
+    width: 40%;
+   }
+   .sec{
+    width: 40%;
+   }
+   .thired{
+    width: 80%;
+   }
+   .Fourth{
+    width: 80%;
+   }
+   #change{
+    width: 40%;
 }
+#create{
+    width: 40%;
+}
+.round{
+    margin-left: 0px;
+}
+nav h2{
+    font-size: 16px;
+}
+nav a{
+    display: none;
+}
+} 
+
